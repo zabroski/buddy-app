@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=devive-width, initial-scale=1.0s">
+        <script
+        src="https://kit.fontawesome.com/fbadad80a0.js"
+        crossorigin="anonymous"
+      ></script>
+
+        <link rel="stylesheet" href="style.css" >
+        <title>The Comic Buddy App</title>
+    </head>
+
+    <body>
+        <div class="validation validate-success">Superhero Added</div>
+
+        <div class="validation validate-error">
+            Unable to Add Superhero <br/>
+            Please Fill All form Inputs
+        </div>
+
+        <h1>The Comic Buddy App</h1>
+        <div class="wrapper">
+            <!-- superhero Entry -->
+            <div class="superhero-entry">
+                <form class="superhero-form">
+                    <!-- Superhero Name -->
+                    <div class="superhero-name">
+                        <label for="name">Superhero Name</label>
+                        <input type="text" id="name" autofocus />
+                    </div>
+
+                    <!-- superhero Universe -->
+                    <div class="superhero-universe">
+                        <label for="universe">Superhero Universe</label>
+                        <input type="text" id="universe" autofocus />
+                    </div>
+
+                    <!-- superhero Power -->
+
+                    <div class="superhero-power">
+                        <label for="power">Superhero Power</label>
+                        <input type="text" id="power" autofocus />
+                    </div>
+
+                    <!-- Submit Button -->
+                    <button class="add-superhero">Add Superhero</button>
+                </form>
+            </div>
+
+            <!-- Superhero List -->
+            <div class="superhero-list">
+                <!-- Herader -->
+                <div class="superhero-list-header">
+                    <h2>Name</h2>
+                    <h2>Universe</h2>
+                    <h2>Power</h2>
+                    <h2>Power</h2>
+                </div>
+
+                <!-- Data -->
+                <div class="superhero-list-data"></div>
+            </div>
+        </div> 
+        <script src="app.js"></script>
+    </body>
+</html>
