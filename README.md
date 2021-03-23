@@ -1,4 +1,4 @@
-# buddy-app was buils with:
+# buddy-app was builts with:
 
 ### Index.html
 
